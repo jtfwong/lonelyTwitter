@@ -4,11 +4,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+    /* Removed hardcoded string and changed to '@string' resource */
     <TextView
         android:id="@+id/oldTweetsTitle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="My old tweets" />
+        android:text="@string/oldTweetsTitle" />
 
     <ListView
         android:id="@+id/oldTweetsList"

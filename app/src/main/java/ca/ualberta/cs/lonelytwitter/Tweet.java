@@ -2,7 +2,7 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
-import io.searchbox.annotations.JestId;
+/* Removed unused imports */
 
 public abstract class Tweet implements Tweetable {
     private String message;

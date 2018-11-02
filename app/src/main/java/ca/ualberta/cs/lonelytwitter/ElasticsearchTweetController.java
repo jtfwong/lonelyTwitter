@@ -1,25 +1,16 @@
 package ca.ualberta.cs.lonelytwitter;
 
+/* Removed unused imports */
 import android.os.AsyncTask;
-import android.util.Log;
-
-import com.searchly.jestdroid.DroidClientConfig;
-import com.searchly.jestdroid.JestClientFactory;
-import com.searchly.jestdroid.JestDroidClient;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.searchbox.client.JestClient;
-import io.searchbox.client.JestResult;
-import io.searchbox.core.DocumentResult;
-import io.searchbox.core.Index;
-import io.searchbox.core.Search;
 
 /**
  * Created by romansky on 10/20/16.
  */
+@SuppressWarnings("ALL")
 public class ElasticsearchTweetController {
 
     static JestDroidClient  client=null;
